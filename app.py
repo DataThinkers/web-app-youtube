@@ -69,9 +69,9 @@ if upload is not None:
         if dup=="No":
             st.text("Ok No Problem")
     
-if st.button('Save DataFrame'):
-    open('data_streamlit.csv','w').write(data.to_csv())
-    st.text("Saved To local Drive")
+# if st.button('Save DataFrame'):
+#     open('data_streamlit.csv','w').write(data.to_csv())
+#     st.text("Saved To local Drive")
 
 # 8. Get Overall Statistics
 if upload is not None:
